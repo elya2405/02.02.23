@@ -121,3 +121,14 @@ while (num <= 100) {
   console.log(num);
   num += 2;
 }
+
+let number = 10; // считает от 10 до 1
+while (number >= 1) {
+  console.log(number);
+  number--;
+}
+
+// цикл при помощи for
+for (let a = 1; a <= 10; a++) {
+  console.log(a);
+}
