@@ -87,7 +87,7 @@ function getKilometer(km) {
 let mill = getKilometer(30);
 console.log(mill);
 
-// дюймы в см
+// дюймы в сантиметры
 function getCm(cm) {
   return cm * 2.54;
 }
