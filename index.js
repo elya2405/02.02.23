@@ -132,3 +132,24 @@ while (number >= 1) {
 for (let a = 1; a <= 10; a++) {
   console.log(a);
 }
+
+for (let b = 10; b >= 1; b--) {
+  console.log(b);
+}
+
+let car1Fuel = 10;
+let car2Fuel = 15;
+let fuel = 50;
+
+let distance = "";
+for (let i = 0; i <= fuel; i += car1Fuel) {
+  distance += "-";
+}
+console.log(distance);
+
+distance = "";
+for (let i = 0; i <= fuel; i += car2Fuel) {
+  distance += "-";
+}
+
+console.log(distance);
