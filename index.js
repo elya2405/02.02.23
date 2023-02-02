@@ -93,3 +93,19 @@ function getCm(cm) {
 }
 let li = getCm(30);
 console.log(li);
+
+// тема циклы
+let i = 1;
+console.log(i);
+
+i = 2;
+console.log(i);
+
+i = i + 1;
+console.log(i);
+
+i += 1; // сокращенная версия
+console.log(i);
+
+i++;
+console.log(i);
