@@ -153,3 +153,17 @@ for (let i = 0; i <= fuel; i += car2Fuel) {
 }
 
 console.log(distance);
+
+// задача Фибоначчи
+
+function fibonacci(num) {
+  let a = 1;
+  let b = 1;
+  for (let i = 3; i <= num; i++) {
+    let c = a + b;
+    a = b;
+    b = c;
+  }
+  return b;
+}
+console.log(fibonacci(6));
